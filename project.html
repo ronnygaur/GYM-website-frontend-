@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RONNY FITNESS CLUB</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: url(img/gym1.jpg);
+            background-size: 2000px 1000px;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-family: 'Caveat', cursive;
+
+        }
+
+        .left {
+            display: inline-block;
+            
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 128px;
+            filter: invert(100%)
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 19px;
+            font-size: 16px;
+        }
+
+        .mid {
+            
+            display: block;
+            width: 35%;
+            margin: 30px auto;
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 23px;
+            display: inline-block;
+            
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 25px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 34px 12px;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+            color: yellowgreen;
+        }
+
+        .btn {
+            font-family: 'Caveat', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color: cornsilk;
+            padding: 12px 4px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            color: rgb(0, 0, 0);
+            background-color: lightgreen;
+        }
+
+        .container {
+        
+             margin: 81px 34px;
+             padding: 11px;
+            
+            width: 66%;
+            border-radius: 28px;
+        }
+
+        .from-group input{
+           font-family:'Caveat', cursive; ;
+
+            text-align: center;
+            display: block;
+            margin: 164px;
+            padding: 9px;
+            border: 1px solid cornflowerblue;
+            margin: 17px auto;
+            font-size: 24px;
+            border-radius: 8px;
+
+        }
+        .container h1{
+            text-align: center;
+        }
+         
+        .container button  {
+             display: block;
+             margin:11px auto;
+             width: 52%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym2.png" alt="">
+            <div> RONNY FITNESS</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">gym guides</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn"> call us now</button>
+            <button class="btn"> Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="container">
+            <h1>join the best gym in rajasthan now</h1>
+
+            <form class="noaction.php">
+
+                <div class="from-group">
+                    <input type="text" name="" placeholder="enter the name">
+                </div>
+
+                <div class="from-group">
+                    <input type="email" name="" placeholder="enter the email">
+                </div>
+                <div class="from-group">
+                    <input type="password" name="" placeholder="enter the password">
+                </div>
+
+                <div class="from-group">
+                    <input type="datetime-localS" name="" placeholder="enter the datetime-localS">
+                </div>
+
+                <button class="btn"> submit </button>
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
